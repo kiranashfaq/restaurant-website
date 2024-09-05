@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat:wght@400..700&display=swap');
+*{
+    
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reservation-details{
+    background-color: #af0e16;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    -webkit-box-reflect: right 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #af0e16, 0 0 15px #af0e16, 0 0 25px #af0e16, 0 0 100px #af0e16;
+    
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range:  entry 0% cover 40%;
+
+}       
+@keyframes appear {
+    from{
+        opacity: 0;
+        /* scale: 0.5; */
+        transform: translateX(-1200px);
+    }
+    to{
+        opacity: 1;
+        /* scale: 1; */
+        transform: translateX(0px);
+
+
+    }
+
+}
+
+.reservation-details .details-div{
+    width: 70%;
+}
+.reservation-details .details-div p{
+    font-size: 20px;
+   padding: 0 3%;
+    word-spacing: 4px;
+}
+.reservation-details .details-div button{
+    padding: 2% 7%;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    margin: 2% 3%;
+}
+.reservation-details .chef-img {
+    width: 60%;
+    /* background-color: pink; */
+}
+.reservation-details .chef-img img{
+    width: 100%;
+}
