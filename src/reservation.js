@@ -44,6 +44,6 @@ console.log(reservation_details);
     if(e.target.innerHTML == "GO BACK"){
         window.location.href = "../index.html"
     }
- } 
+ }
 
   add_data.addEventListener("click",goBack)

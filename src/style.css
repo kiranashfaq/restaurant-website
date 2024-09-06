@@ -252,6 +252,11 @@ color: rgb(151, 151, 151);;
     border-radius: 4px;
     margin-top: 3%;
 }
+#check-details a{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+text-decoration: none;
+}
  .reservation-div .side-2{
     width: 40%;
     display: flex;

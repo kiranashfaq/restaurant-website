@@ -56,10 +56,10 @@ time.value = ""
 people.value = ""
 }
 
-  check_details.addEventListener("click",function(){
+  // check_details.addEventListener("click",function(){
    
-    window.location.href = "../src/reservation.html"
+  //   window.location.href = "../restaurant website/src/reservation.html"
     
-  })
+  // })
 
 
